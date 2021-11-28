@@ -21,9 +21,9 @@ export const AddCategory = ({setCategories}) => {
     return (
         <form onSubmit = {handleSubmit}>
            <input
+                onChange = {handleInputChange}
                 type = "text"
                 value = {inputValue}
-                onChange = {handleInputChange}
            /> 
         </form>
     );
@@ -31,4 +31,5 @@ export const AddCategory = ({setCategories}) => {
 
 AddCategory.propTypes = {
     setCategories: PropTypes.func.isRequired
+
 }
