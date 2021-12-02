@@ -9,7 +9,7 @@ body {
 }
 
 input {
-    background-color: gray;
+    background-color: rgb(47, 132, 158);
     border-radius: 7px;
     border: none;
     color: beige;
